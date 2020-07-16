@@ -1,0 +1,37 @@
+.form,
+.list {
+  border-radius: 8px;
+  box-shadow: 0px 2px 6px rgb(0,0,0,0.4);
+  padding: 15px;
+  box-sizing: border-box;
+  background-color: white;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.form {
+  width: 40%;
+}
+
+.fieldGroup + .fieldGroup {
+  margin-top: 15px;
+}
+
+.fieldGroup > * {
+  display: block;
+  font-size: 1.1rem;
+  box-sizing: border-box;
+}
+
+.fieldGroup > * + * {
+  margin-top: 6px;
+}
+
+.fieldGroup > label {
+  font-size: 0.8rem;
+}
+
+.list {
+  width: 50%;
+  margin-left: 4%;
+}

@@ -1,0 +1,19 @@
+.appBar {
+  background-color: #385382;
+  color: #fefefe;
+  padding: 15px;
+}
+
+.appBar > * {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+}
+
+.primaryHdg {
+  font-size: 2rem;
+}
